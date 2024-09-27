@@ -2,10 +2,10 @@
 
 1. Create a table in PostgreSQL and fill it with arbitrary data
 Table requirements:
- * at least 5 columns containing columns of the following types: string, numeric and date/time
- * at least 1000 rows
- * at least 5% of string data must be empty
- * at least 5% in each data column must be NULL
+  * at least 5 columns containing columns of the following types: string, numeric and date/time
+  * at least 1000 rows
+  * at least 5% of string data must be empty
+  * at least 5% in each data column must be NULL
 2. Register a PostgreSQL database in Data Sun rise.
 3. In Data Sun rise, create a masking rule with masking the first 2 characters of the string to all columns of the string data type.
 4. In Data Sun rise, create an audit rule for SELECT queries with the "Log query results" option enabled.
