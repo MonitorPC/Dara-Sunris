@@ -12,3 +12,9 @@ Table requirements:
 5. Write code to verify the operation of the masking rule. The data received through the proxy request must be masked.
 6. Write code to verify that an audit event has appeared in the list of Events, and masked data has been saved inside it.
 7. Write the result of the check to a file indicating the received and expected result. Compare the expected and actual results in the form of tables.
+
+
+### DONE
+- initial_db.py creates table and inserts data
+- ds_script.py connects to DataSunrise and creates masking and audit rules
+- check.py checks masking and audit rules 
